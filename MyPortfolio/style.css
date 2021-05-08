@@ -1,0 +1,47 @@
+body {
+    background-color: #E0FFFF;
+}
+
+
+/* Style the Sticky icons on web page */
+
+style.stickyicon-list {
+    position: fixed;
+    top: 200px;
+    transform: translateY(-50%);
+}
+
+style.stickyicon-list a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* HOver affect on sticky social media icons */
+
+style.stickyicon-list a:hover {
+    color: #000;
+    width: 10px;
+}
+
+
+/* Now we have to design each icon of social media */
+
+style.twitter {
+    color: white;
+    background: #00acee;
+}
+
+style.linkedin {
+    background: #0e76a8;
+    color: white;
+}
+
+.instagram {
+    background: #3f729b;
+    color: white;
+}
